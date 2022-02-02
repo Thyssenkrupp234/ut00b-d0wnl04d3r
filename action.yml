@@ -1,4 +1,4 @@
-args:
-    description: Other arguments to pass to the `electron-builder` command, e.g. configuration overrides
-    required: false
-    default: "release"
+  release:
+    description: Whether the app should be released after a successful build
+    required: true
+    default: true
