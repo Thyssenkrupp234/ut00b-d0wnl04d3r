@@ -6,11 +6,6 @@
         "output": "out",
         "buildResources": "build-res"
     },
-    "publish": {
-        "provider": "github",
-        "owner": "Thyssenkrupp234",
-        "repo": "ut00b-d0wnl04d3r"
-    },
     "dmg": {
         "window": {
             "width": "700",
