@@ -4,5 +4,14 @@
       "deb",
       "rpm"
     ]
+  },
+  "windows": {
+    "target": "nsis"
+  },
+  "nsis": {
+    "arch": [
+      "ia32",
+      "x64"
+    ]
   }
 }
