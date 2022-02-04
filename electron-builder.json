@@ -1,5 +1,8 @@
 {
   "linux": {
-    "target": "AppImage"
+    "target": [
+      "deb",
+      "rpm"
+    ]
   }
 }
