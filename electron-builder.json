@@ -6,12 +6,15 @@
     ]
   },
   "windows": {
-    "target": "nsis"
-  },
-  "nsis": {
+    "target": "nsis",
     "arch": [
       "ia32",
       "x64"
     ]
+  },
+  "nsis": {
+    "oneClick": "false",
+    "perMachine": "false",
+    "allowToChangeInstallationDirectory": "true"
   }
 }
