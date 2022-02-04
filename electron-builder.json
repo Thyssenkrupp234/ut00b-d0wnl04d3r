@@ -1,4 +1,9 @@
 {
+
+  "directories": {
+    "output": "out",
+    "buildResources": "build-res"
+  },
   "linux": {
     "target": [
       "deb",
