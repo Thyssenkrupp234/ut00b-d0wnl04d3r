@@ -1,8 +1,5 @@
 {
-
-"linux" {
-  "target": "AppImage"
+  "linux": {
+    "target": "AppImage"
+  }
 }
-
-
-} 
