@@ -5,7 +5,7 @@
       "rpm"
     ]
   },
-  "windows": {
+  "win": {
     "target": "nsis",
     "arch": [
       "ia32",
