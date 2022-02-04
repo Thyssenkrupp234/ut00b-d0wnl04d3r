@@ -1,4 +1,0 @@
-  release:
-    description: Whether the app should be released after a successful build
-    required: false
-    default: true
