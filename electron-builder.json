@@ -19,6 +19,18 @@
         ]
     }
 },
+"mac": {
+  "target": {
+    "target": [
+      "pkg",
+      "dmg"
+    ],
+    "arch": [
+      "x64",
+      "arm64"
+    ]
+}
+},
   "nsis": {
     "oneClick": "false",
     "perMachine": "false",
