@@ -1,4 +1,0 @@
-args:
-    description: Other arguments to pass to the `electron-builder` command, e.g. configuration overrides
-    required: false
-    default: "release"
