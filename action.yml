@@ -1,0 +1,16 @@
+name: Electron Builder Action
+author: Samuel Meuli
+description: GitHub Action for building and releasing Electron apps
+
+inputs:
+  release:
+    description: Whether the app should be released after a successful build
+    required: true
+    default: "true"
+runs:
+  using: node16
+  main: index.js
+
+branding:
+  icon: upload-cloud
+  color: blue
