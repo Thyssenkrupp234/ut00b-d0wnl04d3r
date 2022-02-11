@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, Tray, Menu, nativeImage } = require('electron');
 const path = require('path');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -44,3 +44,21 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
+let tray
+
+app.whenReady().then(() => {
+  const icon = nativeImage.createFromPath('path/to/asset.png')
+  tray = new Tray(icon)
+
+  // note: your contextMenu, Tooltip and Title code will go here!
+})
+
+const contextMenu = Menu.buildFromTemplate([
+  { label: 'Item1', type: 'radio' },
+  { label: 'Item2', type: 'radio' },
+  { label: 'Item3', type: 'radio', checked: true },
+])
+
+tray.setContextMenu(contextMenu)
+tray.setToolTip('VSB Visitors network login')
+tray.setTitle('Test')
